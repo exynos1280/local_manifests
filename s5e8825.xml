@@ -20,7 +20,7 @@
         <project path="device/samsung/s5e8825-common" name="android_device_samsung_s5e8825-common" remote="exynos1280" />
 
         <!-- samsung_slsi/ -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="linux4" />
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
 
     <!-- hardware/ -->
         <!-- samsung/ -->
@@ -28,18 +28,18 @@
 
         <!-- samsung_slsi/ -->
         <project path="hardware/samsung_slsi/fm" name="android_hardware_samsung_slsi_fm" remote="los" />
-        <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linux4" />
+        <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
 
         <!-- samsung_slsi-linaro/ -->
-        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="linux4" />
-        <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="linux4" />
+        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="los" />
+        <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="los" />
         <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="exynos1280" />
-        <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="linux4" />
+        <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="los" />
         <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="exynos1280" />
-        <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="linux4" />
-        <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="linux4" />
+        <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="los" />
+        <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="exynos1280" />
 
     <!-- kernel/ -->
         <!-- samsung -->
