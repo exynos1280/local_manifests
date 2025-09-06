@@ -44,7 +44,7 @@
 
     <!-- packages/ -->
         <!-- apps/ -->
-        <project path="packages/apps/FastCharge" name="packages_apps_FastCharge" remote="yaap" />
+        <project path="packages/apps/FastCharge" name="packages_apps_FastCharge" remote="exynos1280" revision="fifteen" />
 
     <!-- vendor/ -->
         <!-- samsung/ -->
