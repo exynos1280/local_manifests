@@ -18,6 +18,7 @@
         <project path="device/samsung/a53x" name="android_device_samsung_a53x" remote="exynos1280" />
         <project path="device/samsung/m34x" name="android_device_samsung_m34x" remote="exynos1280" />
         <project path="device/samsung/s5e8825-common" name="android_device_samsung_s5e8825-common" remote="exynos1280" />
+        <project path="device/samsung/s5e8825-scripts" name="android_device_samsung_s5e8825-scripts" remote="exynos1280" />
 
         <!-- samsung_slsi/ -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
