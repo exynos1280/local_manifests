@@ -42,6 +42,10 @@
         <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="los" />
         <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="exynos1280" />
 
+        <!-- Cleanup -->
+        <remove-project path="hardware/qcom/sm7250/gps" />
+        <remove-project path="hardware/qcom/sm8150/gps" />
+
     <!-- kernel/ -->
         <!-- samsung -->
         <project path="kernel/samsung/s5e8825" name="android_kernel_samsung_s5e8825" remote="exynos1280" />
