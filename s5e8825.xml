@@ -16,6 +16,7 @@
         <!-- samsung/ -->
         <project path="device/samsung/a25x" name="android_device_samsung_a25x" remote="exynos1280" />
         <project path="device/samsung/a53x" name="android_device_samsung_a53x" remote="exynos1280" />
+        <project path="device/samsung/m33x" name="android_device_samsung_m33x" remote="exynos1280" />
         <project path="device/samsung/m34x" name="android_device_samsung_m34x" remote="exynos1280" />
         <project path="device/samsung/s5e8825-common" name="android_device_samsung_s5e8825-common" remote="exynos1280" />
 
@@ -49,6 +50,7 @@
         <!-- samsung/ -->
         <project path="vendor/samsung/a25x" name="proprietary_vendor_samsung_a25x" remote="exynos1280" />
         <project path="vendor/samsung/a53x" name="proprietary_vendor_samsung_a53x" remote="exynos1280" />
+        <project path="vendor/samsung/m33x" name="proprietary_vendor_samsung_m33x" remote="exynos1280" />
         <project path="vendor/samsung/m34x" name="proprietary_vendor_samsung_m34x" remote="exynos1280" />
         <project path="vendor/samsung/s5e8825-common" name="proprietary_vendor_samsung_s5e8825-common" remote="exynos1280" />
 </manifest>

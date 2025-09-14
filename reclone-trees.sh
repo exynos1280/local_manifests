@@ -2,7 +2,7 @@
 set -e
 
 DEVICES=(
-  "a25x" "a53x" "m34x"
+  "a25x" "a53x" "m33x" "m34x"
   "s5e8825-common"
 )
 XML="$(pwd)/.repo/local_manifests/s5e8825.xml"
