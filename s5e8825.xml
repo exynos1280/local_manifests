@@ -46,6 +46,10 @@
         <!-- samsung -->
         <project path="kernel/samsung/s5e8825" name="android_kernel_samsung_s5e8825" remote="exynos1280" />
 
+    <!-- packages/ -->
+        <!-- apps/ -->
+        <project path="packages/apps/SpeakerFX" name="android_packages_apps_SpeakerFX" remote="exynos1280" />
+
     <!-- vendor/ -->
         <!-- samsung/ -->
         <project path="vendor/samsung/a25x" name="proprietary_vendor_samsung_a25x" remote="exynos1280" revision="evox-vic" />
