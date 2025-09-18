@@ -17,8 +17,14 @@ fi
 
 for m in "${DEVICES[@]}"; do
   sed -i "/$m/d" "$XML"
+  (
+  echo "Cloning $m"
   [ -d "$(pwd)/device/samsung/$m" ] && rm -rf "$(pwd)/device/samsung/$m"
-  git clone -j"$(nproc --all)" "$URL/android_device_samsung_$m" -b "$BRANCH" "$(pwd)/device/samsung/$m"
+  git clone -j"$(nproc --all)" -q "$URL/android_device_samsung_$m" -b "$BRANCH" "$(pwd)/device/samsung/$m"
   [ -d "$(pwd)/vendor/samsung/$m" ] && rm -rf "$(pwd)/vendor/samsung/$m"
-  git clone -j"$(nproc --all)" "$URL/proprietary_vendor_samsung_$m" -b "$BRANCH" "$(pwd)/vendor/samsung/$m"
+  git clone -j"$(nproc --all)" -q "$URL/proprietary_vendor_samsung_$m" -b "$BRANCH" "$(pwd)/vendor/samsung/$m"
+  ) &
 done
+
+# shellcheck disable=SC2046
+wait $(jobs -p) || exit 1
