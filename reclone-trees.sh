@@ -7,8 +7,11 @@ DEVICES=(
 )
 XML="$(pwd)/.repo/local_manifests/s5e8825.xml"
 URL="https://github.com/exynos1280"
-[[ "$(whoami)" == "ksawlii" ]] && URL="git@github.com:exynos1280"
 [[ -z "$BRANCH" ]] && BRANCH="lineage-23.0"
+
+if [[ "$(whoami)" == "ksawlii" ]] || [[ "$(whoami)" == "maja"* ]]; then
+    URL="git@github.com:exynos1280"
+fi
 
 if [[ ! -f "$XML" ]]; then
   echo "s5e8825.xml not found. Please execute from root dir."
