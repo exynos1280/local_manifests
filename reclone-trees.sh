@@ -7,7 +7,7 @@ DEVICES=(
 )
 XML="$(pwd)/.repo/local_manifests/s5e8825.xml"
 URL="https://github.com/exynos1280"
-[[ -z "$BRANCH" ]] && BRANCH="lineage-23.0"
+[[ -z "$BRANCH" ]] && BRANCH="lineage-23.1"
 
 if [[ "$(whoami)" == "ksawlii" ]] || [[ "$(whoami)" == "maja"* ]]; then
     URL="git@github.com:exynos1280"
