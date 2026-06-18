@@ -2,11 +2,11 @@
 <manifest>
     <remote name="exynos1280"
             fetch="https://github.com/exynos1280"
-            revision="lineage-23.0" />
+            revision="lineage-23.2" />
 
     <remote name="los"
             fetch="https://github.com/LineageOS"
-            revision="lineage-23.0" />
+            revision="lineage-23.2" />
 
     <!-- device/ -->
         <!-- samsung/ -->
