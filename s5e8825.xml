@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="linux4"
-            fetch="https://github.com/linux4-bringup-priv"
-            revision="lineage-23.0" />
-
     <remote name="exynos1280"
             fetch="https://github.com/exynos1280"
             revision="lineage-23.0" />
