@@ -4,10 +4,6 @@
             fetch="https://github.com/exynos1280"
             revision="lineage-23.2" />
 
-    <remote name="los"
-            fetch="https://github.com/LineageOS"
-            revision="lineage-23.2" />
-
     <remote name="floppy"
             fetch="https://github.com/FlopKernel-Series" />
 
@@ -17,27 +13,27 @@
         <project path="device/samsung/s5e8825-common" name="android_device_samsung_s5e8825-common" remote="exynos1280" />
 
         <!-- samsung_slsi/ -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
+        <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" />
 
     <!-- hardware/ -->
         <!-- samsung/ -->
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="los" />
+        <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" />
 
         <!-- samsung_slsi/ -->
-        <project path="hardware/samsung_slsi/fm" name="android_hardware_samsung_slsi_fm" remote="los" />
-        <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
-        <project path="hardware/samsung_slsi/nfc" name="android_hardware_samsung_slsi_nfc" remote="los" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
+        <project path="hardware/samsung_slsi/fm" name="LineageOS/android_hardware_samsung_slsi_fm" remote="github" />
+        <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remote="github" />
+        <project path="hardware/samsung_slsi/nfc" name="LineageOS/android_hardware_samsung_slsi_nfc" remote="github" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" />
 
         <!-- samsung_slsi-linaro/ -->
-        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="los" />
+        <project path="hardware/samsung_slsi-linaro/config" name="LineageOS/android_hardware_samsung_slsi-linaro_config" remote="github" />
+        <project path="hardware/samsung_slsi-linaro/openmax" name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" remote="github" />
+        <project path="hardware/samsung_slsi-linaro/codec2" name="LineageOS/android_hardware_samsung_slsi-linaro_codec2" remote="github" />
+        <project path="hardware/samsung_slsi-linaro/interfaces" name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" remote="github" />
+        <project path="hardware/samsung_slsi-linaro/graphics" name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" remote="github" />
+        <project path="hardware/samsung_slsi-linaro/exynos5" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" remote="github" />
+        <project path="hardware/samsung_slsi-linaro/exynos" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" remote="github" />
 
     <!-- kernel/ -->
         <!-- samsung -->
