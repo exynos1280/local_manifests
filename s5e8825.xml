@@ -43,6 +43,10 @@
         <!-- samsung -->
         <project path="kernel/samsung/s5e8825" name="flop_s5e8825_kernel" remote="floppy" revision="floppy-new" />
 
+    <!-- packages/ -->
+        <!-- apps/ -->
+        <project path="packages/apps/flossims" name="krazey/ims" remote="github" revision="main" />
+
     <!-- vendor/ -->
         <!-- samsung/ -->
         <project path="vendor/samsung/a25x" name="proprietary_vendor_samsung_a25x" remote="exynos1280" />
