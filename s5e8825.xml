@@ -41,7 +41,7 @@
 
     <!-- packages/ -->
         <!-- apps/ -->
-        <project path="packages/apps/flossims" name="krazey/ims" remote="github" revision="main" />
+        <project path="packages/apps/flossims" name="krazey/ims" remote="github" revision="main" sync-s="true" />
 
     <!-- vendor/ -->
         <!-- samsung/ -->
