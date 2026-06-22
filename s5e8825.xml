@@ -43,6 +43,10 @@
         <!-- apps/ -->
         <project path="packages/apps/flossims" name="krazey/ims" remote="github" revision="main" sync-s="true" />
 
+        <!-- services/ -->
+        <remove-project name="Lunaris-AOSP/packages_services_DeviceAsWebcam" />
+        <project path="packages/services/DeviceAsWebcam" name="Flopster101/android_packages_services_DeviceAsWebcam" remote="github" revision="lineage-23.2" />
+
     <!-- vendor/ -->
         <!-- samsung/ -->
         <project path="vendor/samsung/a25x" name="proprietary_vendor_samsung_a25x" remote="exynos1280" />
