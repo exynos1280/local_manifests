@@ -20,7 +20,7 @@
         <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" />
 
         <!-- samsung_slsi/ -->
-        <project path="hardware/samsung_slsi/fm" name="LineageOS/android_hardware_samsung_slsi_fm" remote="github" />
+        <project path="hardware/samsung_slsi/fm" name="Flopster101/android_hardware_samsung_slsi_fm" remote="github" />
         <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remote="github" />
         <project path="hardware/samsung_slsi/nfc" name="LineageOS/android_hardware_samsung_slsi_nfc" remote="github" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" />
